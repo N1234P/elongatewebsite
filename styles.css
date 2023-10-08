@@ -1,0 +1,254 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden; /* Add this line to hide horizontal overflow */
+}
+
+header {
+   
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    margin-right: 10px;
+  
+}
+
+.sub {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    
+}
+
+nav li {
+    margin-left: 20px;
+    font-size: 16px; /* Adjusted font size */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.main-title {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.main-title h3 {
+    font-size: 18px;
+}
+
+.top {
+    height: 100vh;
+    background-image: url('—Pngtree—hd\ black\ blue\ gradient\ background_1126499.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 0px 50px 50px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+
+
+
+.middle {
+    margin-top:-80px;
+    background-image: url('connect.jpg');
+    position: relative;
+    z-index: 0;
+    background-color: black;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.about {
+    position: relative;
+    bottom:15%;
+    padding-top: 20em;
+    margin-left: 2em;
+    overflow: hidden;
+    
+ 
+}
+
+.middle .tweets-1 {
+    position: relative;
+    bottom: 15%;
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.tweets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweets-1 img {
+    max-height: 35em;
+}
+
+.tweets-text {
+    position: relative;
+    bottom:17%;
+    
+}
+
+#tw2 {
+    max-width: 40em;
+    max-height: 20em;
+    position: relative;
+    bottom:10%;
+}
+
+
+.end {
+    margin-top:-80px;
+    background-image: url('last.png');
+    position: relative;
+    z-index: 0;
+    background-color: black;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.roadmap {
+    
+    margin: 0 auto;
+}
+
+.roadmap ul {
+    margin-top: 10px;;
+}
+.roadmap li {
+    padding:3px;
+}
+
+.rectangle {
+    position: relative;
+    top:10%;
+    border: 1px solid #fff;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+
+.socials {
+    position: relative;
+    top:5%;
+    padding:0;
+    margin:0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socials img {
+    max-height: 50px;
+    padding: 10em;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    body{
+        font-size: 12px;
+    }
+    nav li {
+        font-size: 10px; /* Adjusted font size for smaller screens */
+    }
+
+    .main-title h1 {
+        font-size: 30px; /* Adjusted font size for smaller screens */
+    }
+
+    .main-title h3 {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    img {
+        max-height: 50px;
+        max-width: 30px;
+    }
+
+    .top {
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .tweets-1 img {
+        position: relative;
+        bottom: 5em;
+        max-height: 25em;
+        max-width: 15em;
+    }
+
+    #tw2 {
+        position: relative;
+        bottom: 5em;
+        max-width: 20em;
+        max-height: 10em;
+        
+    }
+    .tweets-text {
+        position: relative;
+        bottom:5em;
+    }
+    .socials img {
+        width: 10em;
+        padding: 10em 2em 5em 5em;
+    }
+}
